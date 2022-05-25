@@ -11,7 +11,7 @@ EPOCHS = 5
 BATCH_SIZE = 10000
 LEARNING_RATE = 0.001
 NUM_EXAMPLES = 5
-CYCLE = 24
+CYCLE = 25
 
 with open("data/mnist.pkl", "rb") as file:
     (x_train, _), (x_test, _) = pickle.load(file, encoding="latin")
